@@ -2,7 +2,7 @@
 punkt 3:         </br>
 -
 a. polecenie do zbudowania opracowanego obrazu kontenera *docker build -t [nazwa_obrazu] .*          
-b) polecenie do uruchomienia kontenera na podstawie zbudowanego obrazu *docker run -p 5000:8080 -d [nazwa_obrazu]* 
+b) polecenie do uruchomienia kontenera na podstawie zbudowanego obrazu *docker run -p 5000:8080 -d [nazwa_obrazu]*  </br>
 c) polecenie do sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera *docker logs [nazwa_kontenera]*     
 
 d) polecenie do sprawdzenia, ile warstw posiada zbudowany obraz *docker history [nazwa_obrazu]*             
