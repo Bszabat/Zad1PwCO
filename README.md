@@ -1,19 +1,15 @@
 # Zadanie1
 Odpowiedzi na pytania z podpunktu nr 3:         </br>
 -
-a) *docker build -t [nazwa_obrazu] .*           </br>
-b) *docker run -p 5000:8080 -d [nazwa_obrazu]*  </br>
-c) *docker logs [nazwa_kontenera]*              </br>
-d) *docker history [nazwa_obrazu]*              </br>
+a. polecenie do zbudowania opracowanego obrazu kontenera *docker build -t [nazwa_obrazu] .*           </br>
+b) polecenie do uruchomienia kontenera na podstawie zbudowanego obrazu *docker run -p 5000:8080 -d [nazwa_obrazu]*  </br>
+c) polecenie do sposobu uzyskania informacji, które wygenerował serwer w trakcie uruchamiana kontenera *docker logs [nazwa_kontenera]*              </br>
+d) polecenie do sprawdzenia, ile warstw posiada zbudowany obraz *docker history [nazwa_obrazu]*              </br>
 
 Odpowiedzi na pytania z podpunktu nr 4:         </br>
 -
 1. Można zbudować obraz wykorzystując bezpośrednio link do Dockerfile z GitHub-em wykorzystując polecenie: </br>
-- *docker build [url do repozytorium na GitHubie]*
-
-2. Przeniesienie stowrzonego obrazu na swoje konto na DockerHubie odbywa się za pomocą poleceń:
-- *docker tag [nazwaObrazu]:[nazwaTagu] [nazwaRepozytorium]:[nazwaTagu]*
-- *docker push [nazwaRepozytorium]/[nazwaTagu]*
+- *docker build [url repo na githubie]*
 </br>
 </br>
 
