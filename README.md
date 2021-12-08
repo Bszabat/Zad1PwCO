@@ -23,7 +23,7 @@ b)
 Pobranie najnowszej wersji ubuntu:                    </br>
 ```docker pull ubuntu```                              </br>
 Zmiana nazwy:                                         </br>
-```docker tag ubnutu localhost:6677/newubnutu```      </br>
+```docker tag ubuntu localhost:6677/newubnutu```      </br>
 Wgranie do utworzonego, prywatnego rejestru:          </br>
 ```docker push localhost:6677/newubuntu```            </br>
 
